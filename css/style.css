@@ -1,0 +1,15 @@
+.wraper img {
+	float: right;
+}
+.wraper p {
+	float: left;
+	width: 600px;
+}
+.clear {
+	clear: both;
+}
+.wraper::after {
+	content: '';
+	clear: both;
+	display: block;
+}
